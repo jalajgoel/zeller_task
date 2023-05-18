@@ -1,0 +1,61 @@
+.mainWrapper {
+    padding: 30px 50px;
+}
+
+.childWrapper {
+    border-bottom: 1px solid rgb(235, 235, 235);
+    padding: 20px 0px;
+}
+
+.titles{
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.usersWrapper{
+    display: flex;
+    align-items: center;
+}
+
+.username, .radioWrapper {
+    font-weight: 600;
+}
+
+.avatar{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    margin-right: 20px;
+    border-radius: 7px;
+    background: #c8e0f7;
+}
+
+.avatarChild{
+    position: absolute;
+    color: #3182ce;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.nameAndRoleWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.highlighted {
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.addColor{
+    background: #c8e0f7;
+}
+
+.spinner {
+    width: 100%;
+    text-align: center;
+    margin-top: 70px;
+}
